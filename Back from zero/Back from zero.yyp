@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Room","folderPath":"folders/Room.yy","name":"Room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -23,14 +24,15 @@
   "name":"Back from zero",
   "resources":[
     {"id":{"name":"spr_MainStock","path":"objects/spr_MainStock/spr_MainStock.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
+    {"id":{"name":"spr_Ba","path":"sprites/spr_Ba/spr_Ba.yy",},},
     {"id":{"name":"spr_downHill","path":"sprites/spr_downHill/spr_downHill.yy",},},
     {"id":{"name":"spr_Uphill","path":"sprites/spr_Uphill/spr_Uphill.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
