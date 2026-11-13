@@ -13,7 +13,10 @@ if frame >= second
 //Increase sell value
 oldValue = sellValue
 
-sellValue += choose(-10, 10);
+//go up if you touch the border
+if place_meeting( x, y + sprite_height, obj_border) { sellValue += 10; }
+else if place_meeting(x , y - sprite_height, obj_border ) { sellValue -= 10; }
+else { sellValue += choose(-10, 10, 10);}
 sellValue = floor(sellValue);
 
 if oldValue <= sellValue 

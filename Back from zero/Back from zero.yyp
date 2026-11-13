@@ -30,6 +30,7 @@
   "name":"Back from zero",
   "resources":[
     {"id":{"name":"Fnt_Pixel","path":"fonts/Fnt_Pixel/Fnt_Pixel.yy",},},
+    {"id":{"name":"obj_border","path":"objects/obj_border/obj_border.yy",},},
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
     {"id":{"name":"obj_HUDmanger","path":"objects/obj_HUDmanger/obj_HUDmanger.yy",},},
     {"id":{"name":"Obj_MainStock","path":"objects/Obj_MainStock/Obj_MainStock.yy",},},
@@ -40,7 +41,10 @@
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"variables","path":"scripts/variables/variables.yy",},},
     {"id":{"name":"HumanSlop","path":"sprites/HumanSlop/HumanSlop.yy",},},
+    {"id":{"name":"PALLETE","path":"sprites/PALLETE/PALLETE.yy",},},
+    {"id":{"name":"spr_BankMoney","path":"sprites/spr_BankMoney/spr_BankMoney.yy",},},
     {"id":{"name":"spr_Bg","path":"sprites/spr_Bg/spr_Bg.yy",},},
+    {"id":{"name":"spr_borders","path":"sprites/spr_borders/spr_borders.yy",},},
     {"id":{"name":"spr_Button","path":"sprites/spr_Button/spr_Button.yy",},},
     {"id":{"name":"spr_ButtonBG","path":"sprites/spr_ButtonBG/spr_ButtonBG.yy",},},
     {"id":{"name":"spr_downHill","path":"sprites/spr_downHill/spr_downHill.yy",},},
