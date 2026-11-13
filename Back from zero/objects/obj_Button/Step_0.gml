@@ -19,30 +19,25 @@ switch ( ID )
 	
 	//buy button
 	if mb1
-	{
+
 	//Buy button
-	with (Obj_MainStock) {
-	if global.money * buyAmount >= sellValue 
-	{
-	global.stocks += buyAmount;
-	global.money  -= sellValue * buyAmount;
-	}
-	}
-	}
+
 	break;
 	
 	case 3:
 	//sell  button
 	if mb1
 	{
-	//Buy button
+	
 	with (Obj_MainStock) {
 	if global.stocks  >= buyAmount 
 	{
 	global.stocks -= buyAmount;
 	global.money  += sellValue * buyAmount;
+	show_debug_message("Sold");
 	}
 	}
+	show_debug_message("no stocks");
 	}
 	
 	break;

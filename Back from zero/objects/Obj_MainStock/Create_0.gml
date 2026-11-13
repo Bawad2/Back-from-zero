@@ -2,6 +2,7 @@
 trail = 0;
 sprite_of_trail = sprite_index;
 
+if trail { exit;}
 //Value stuff
 sellValue = 100;
 oldValue = 0;
