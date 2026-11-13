@@ -1,1 +1,2 @@
-image_alpha = 0.6;
+//hover effect
+image_alpha = 0.5
