@@ -4,11 +4,12 @@ draw_set_halign(textalign_right);
 if room == rm_Main
 {
 //how many stocks I got
-draw_text_transformed( 828, 27, global.stocks, 2, 2, image_angle  );
+draw_text_transformed( 128, 340, global.stocks, 2, 2, image_angle  );
 //Stock Prices
 if instance_exists(Obj_MainStock)
 {
-draw_text_transformed( 828, 57, Obj_MainStock.sellValue, 2, 2, image_angle  );
+draw_sprite_ext(spr_stocks, image_index, 628, 57, 4, 4, image_angle, image_blend, image_alpha);
+draw_text_transformed( 748, 97, Obj_MainStock.sellValue, 1.5, 1.5, image_angle  );
 }
 
 //Draw Money stuff

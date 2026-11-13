@@ -42,5 +42,31 @@ with trailObj { trail = true; sprite_of_trail = other.sprite_index; }
 }
 
 
+//Buy and Sell
+if global.triggerBuy
+{
+	if global.money >= sellValue * global.buyAmount
+	{
+		global.stocks += global.buyAmount;
+		global.money -= sellValue * global.buyAmount;
+		show_debug_message("brought")
+	}
+	show_debug_message("tried to buy")
+	global.triggerBuy = 0;
+}
+
+if global.triggerSell
+{
+	if global.stocks >=  global.buyAmount
+	{
+		global.money += global.buyAmount* sellValue;
+		global.stocks -= global.buyAmount;
+	
+	}
+
+
+}
+
+
 //Turn on the buy thingys
 if room == rm_Main {  layer_set_visible("Controls", true)}

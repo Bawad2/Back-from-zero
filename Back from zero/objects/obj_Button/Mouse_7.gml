@@ -11,30 +11,15 @@ switch(ButtonID)
 	
 	//buy button
 	//Buy button
-	with (Obj_MainStock) {
-	if global.money * buyAmount >= sellValue 
-	{
-	global.stocks += buyAmount;
-	global.money  -= sellValue * buyAmount;
-	show_debug_message("BROUGHT");
-	}
-	}
-	show_debug_message("not enough cash")
+	global.triggerBuy = 1;
 
 	break;
 	
 	case 3:
 	//sell  button
 
+	global.triggerSell = 1;
 
-	with (Obj_MainStock) {
-	if global.stocks  >= buyAmount 
-	{
-	global.stocks -= buyAmount;
-	global.money  += sellValue * buyAmount;
-	show_debug_message("SOLD");
-	}
-	}
 	break;
 	
 	//Quit button
