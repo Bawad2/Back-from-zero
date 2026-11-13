@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Shop","folderPath":"folders/Objects/Shop.yy","name":"Shop","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Room","folderPath":"folders/Room.yy","name":"Room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -33,9 +34,9 @@
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
     {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
+    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"spr_Bg","path":"sprites/spr_Bg/spr_Bg.yy",},},
     {"id":{"name":"spr_ButtonBG","path":"sprites/spr_ButtonBG/spr_ButtonBG.yy",},},
-    {"id":{"name":"spr_ButtonBG1","path":"sprites/spr_ButtonBG1/spr_ButtonBG1.yy",},},
     {"id":{"name":"spr_downHill","path":"sprites/spr_downHill/spr_downHill.yy",},},
     {"id":{"name":"spr_Panel","path":"sprites/spr_Panel/spr_Panel.yy",},},
     {"id":{"name":"spr_Title","path":"sprites/spr_Title/spr_Title.yy",},},
@@ -44,8 +45,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
     {"roomId":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
+    {"roomId":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
