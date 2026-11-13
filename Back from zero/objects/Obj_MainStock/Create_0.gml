@@ -3,7 +3,7 @@ trail = 0;
 sprite_of_trail = sprite_index;
 
 //Value stuff
-sellValue = 0;
+sellValue = 100;
 oldValue = 0;
 
 marketUphill = 1;

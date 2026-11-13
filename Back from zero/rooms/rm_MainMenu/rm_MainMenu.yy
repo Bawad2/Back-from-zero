@@ -9,7 +9,6 @@
     {"name":"inst_794716A5","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},
     {"name":"inst_516DEAB","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_228FF948","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},
-    {"name":"inst_796FAF1","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

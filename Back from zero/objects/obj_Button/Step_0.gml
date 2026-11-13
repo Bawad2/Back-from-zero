@@ -2,26 +2,22 @@
 var mb1 = mouse_check_button_released(mb_left);
 
 
-
-switch (ID)
+switch ( ID )
 {
-	case 0 :
+	case 0:
 		//Game start button
 		
-		if mb1 {room_goto(rm_Main)
-		 layer_set_visible( "MainMenu", false);}
+		if mb1 {room_goto(rm_Main); layer_set_visible( "MainMenu", false);}
 		
 	break;
 	
 	case 1:
-		//restart button
+	//restart button
 		if mb1 { layer_set_visible("GameOverScreen", false ); }
-	
-	
 	break;
-	
 	case 2:
-	if room == rm_MainMenu{layer_set_visible(self.layer, false)}
+	
+	//buy button
 	if mb1
 	{
 	//Buy button
@@ -33,6 +29,29 @@ switch (ID)
 	}
 	}
 	}
+	break;
+	
+	case 3:
+	//sell  button
+	if mb1
+	{
+	//Buy button
+	with (Obj_MainStock) {
+	if global.stocks  >= buyAmount 
+	{
+	global.stocks -= buyAmount;
+	global.money  += sellValue * buyAmount;
+	}
+	}
+	}
 	
 	break;
+	
+}
+
+
+
+if ID == 3
+{
+	
 }

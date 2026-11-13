@@ -13,9 +13,10 @@ if frame >= second
 //Increase sell value
 oldValue = sellValue
 
-sellValue += random_range(-10, 10);
+sellValue += choose(-10, 10);
+sellValue = floor(sellValue);
 
-if oldValue >= sellValue 
+if oldValue <= sellValue 
 { //Understand that value is more then before
 	
 	sprite_index = spr_Uphill;
