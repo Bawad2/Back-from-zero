@@ -1,8 +1,10 @@
+if trail {  sprite_index = sprite_of_trail; exit; }
+
 frame ++
 
 //once every second
 
-if frame >= second
+if frame >= second 
 {
 	//frame back to zero
 	frame = 0;
@@ -29,4 +31,7 @@ if oldValue >= sellValue
 	y += sprite_height - 3;
 	
 }
+//Create a trail
+var trailObj = instance_create_layer( x, y,self.layer, Obj_MainStock )
+with trailObj { trail = true; sprite_of_trail = other.sprite_index; }
 }
