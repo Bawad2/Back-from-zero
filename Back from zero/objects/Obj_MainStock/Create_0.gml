@@ -11,3 +11,6 @@ marketUphill = 1;
 //second passed
 frame = 0;
 second = 60;
+
+//Buying
+buyAmount = 1;

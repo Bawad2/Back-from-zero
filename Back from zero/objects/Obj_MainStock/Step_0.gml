@@ -1,3 +1,4 @@
+//create trails
 if trail {  sprite_index = sprite_of_trail; exit; }
 
 frame ++
@@ -34,4 +35,12 @@ if oldValue >= sellValue
 //Create a trail
 var trailObj = instance_create_layer( x, y,self.layer, Obj_MainStock )
 with trailObj { trail = true; sprite_of_trail = other.sprite_index; }
+}
+
+//Buying
+
+if global.money * buyAmount >= sellValue 
+{
+	global.stocks += buyAmount;
+	global.money  -= sellValue * buyAmount;
 }
