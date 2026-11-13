@@ -3,12 +3,12 @@ var mb1 = mouse_check_button_released(mb_left);
 
 
 
-switch (Button_ID)
+switch (ID)
 {
 	case 0 :
 		//Game start button
 		
-		if mb1 {room_goto_next();
+		if mb1 {room_goto(rm_Main)
 		 layer_set_visible( "MainMenu", false);}
 		
 	break;
@@ -21,7 +21,7 @@ switch (Button_ID)
 	break;
 	
 	case 2:
-	if room == rm_Main { layer_set_visible(self.layer, true )} else { layer_set_visible(self.layer, false) }
+	if room == rm_MainMenu{layer_set_visible(self.layer, false)}
 	if mb1
 	{
 	//Buy button

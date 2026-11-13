@@ -38,4 +38,5 @@ with trailObj { trail = true; sprite_of_trail = other.sprite_index; }
 }
 
 
-
+//Turn on the buy thingys
+if room == rm_Main {  layer_set_visible("Controls", true)}
