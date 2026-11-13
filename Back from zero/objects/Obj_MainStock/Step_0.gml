@@ -1,7 +1,8 @@
 //create trails
 if trail {  sprite_index = sprite_of_trail; exit; }
-
-frame ++
+if place_meeting( x + sprite_width, y, obj_border)
+{	with(all){ if  Obj_MainStock { if Obj_MainStock.trail{ instance_destroy();}} } x = 0 ; y = 164	}
+frame ++;
 
 //once every second
 
