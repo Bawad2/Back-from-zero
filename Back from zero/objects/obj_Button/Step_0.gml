@@ -9,7 +9,7 @@ switch (Button_ID)
 		//Game start button
 		
 		if mb1 {room_goto_next();
-		 layer_set_visible( self.layer, false);}
+		 layer_set_visible( "MainMenu", false);}
 		
 	break;
 	
@@ -20,4 +20,19 @@ switch (Button_ID)
 	
 	break;
 	
+	case 2:
+	if room == rm_Main { layer_set_visible(self.layer, true )} else { layer_set_visible(self.layer, false) }
+	if mb1
+	{
+	//Buy button
+	with (Obj_MainStock) {
+	if global.money * buyAmount >= sellValue 
+	{
+	global.stocks += buyAmount;
+	global.money  -= sellValue * buyAmount;
+	}
+	}
+	}
+	
+	break;
 }
