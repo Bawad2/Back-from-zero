@@ -23,9 +23,9 @@
   },
   "name":"Back from zero",
   "resources":[
-    {"id":{"name":"spr_MainStock","path":"objects/spr_MainStock/spr_MainStock.yy",},},
+    {"id":{"name":"Obj_MainStock","path":"objects/Obj_MainStock/Obj_MainStock.yy",},},
     {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
-    {"id":{"name":"spr_Ba","path":"sprites/spr_Ba/spr_Ba.yy",},},
+    {"id":{"name":"spr_Bg","path":"sprites/spr_Bg/spr_Bg.yy",},},
     {"id":{"name":"spr_downHill","path":"sprites/spr_downHill/spr_downHill.yy",},},
     {"id":{"name":"spr_Uphill","path":"sprites/spr_Uphill/spr_Uphill.yy",},},
   ],
