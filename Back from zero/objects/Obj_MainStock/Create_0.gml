@@ -6,7 +6,7 @@ if trail { exit;}
 //Value stuff
 sellValue = 100;
 oldValue = 0;
-
+stocks = 0;
 marketUphill = 1;
 
 //second passed

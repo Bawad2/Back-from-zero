@@ -43,30 +43,13 @@ with trailObj { trail = true; sprite_of_trail = other.sprite_index; }
 }
 
 
-//Buy and Sell
-if global.triggerBuy
-{
-	if global.money >= sellValue * global.buyAmount
-	{
-		global.stocks += global.buyAmount;
-		global.money -= sellValue * global.buyAmount;
-		show_debug_message("brought")
-	}
-	show_debug_message("tried to buy")
-	global.triggerBuy = 0;
-}
+//debug
 
-if global.triggerSell
-{
-	if global.stocks >=  global.buyAmount
-	{
-		global.money += global.buyAmount* sellValue;
-		global.stocks -= global.buyAmount;
-	
-	}
+show_debug_message(global.stocks);
+show_debug_message( "triggersell :" +  string(global.triggerSell) )
+show_debug_message(  "triggerbuy :" + string(global.triggerBuy) )
 
 
-}
 
 
 //Turn on the buy thingys
